@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>JRS Coding School Blog</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="heading">
+            <h1>JRS Coding School Blog</h1>
+            <div id="nav-placeholder"></div>
+            <script>
+                $(function () {
+                    $("#nav-placeholder").load("nav.html");
+                });
+            </script>
+        </div>
+
+        <div class="sidenav">
+            <div id="sidenav-list">
+
+            </div>
+            <script>
+                $(function () {
+                    $("#sidenav-list").load("sidenav.html");
+                });
+            </script>
+            <div id="sidenav-LI"></div>
+            <script>
+                $(function () {
+                    $("#sidenav-LI").load("sidenavLI.html");
+                });
+            </script>
+        </div>
+
+
+
+        <div class="main">
+            <div class="postarea3 week3">
+                <h3>
+                    Colby Burke
+                </h3>
+                <h2>
+                    JRS Coding School Day Five
+                </h2>
+                <p>
+                    Since today is Friday, the fifth day of JRS, we took much of the day to work on our current
+                    projects. We have
+                    practice problems, websites, and projects (such as the calculator project) which need to be
+                    completed. The
+                    calculator has taken up much of my time this week because when I fix one problem in the JavaScript,
+                    often
+                    times another problem will appear. By now, the calculator looks good and does what I want it to.
+                    Other than
+                    those projects, we began to speak about the REST API, Bootstrap, jQuery, and databases. I know how
+                    to program,
+                    but I haven’t seen some of the stuff on the backend which we will talk about next week, so I’m
+                    excited to see
+                    what will happen.
+                </p>
+                <br />
+                <div class="images">
+                    <img src="Rest-API.png" alt="REST API pic" style="width: 250px">
+                </div>
+            </div>
+            <div class="postarea2 week2">
+                <h3>
+                    Colby Burke
+                </h3>
+
+                <h2>
+                    JRS Coding School Day Four
+                </h2>
+
+                <p>
+                    Since our first day on Monday, we’ve touched on HTML/CSS as well as JavaScript. Of the three ways to
+                    code, I
+                    can
+                    definitely say that JavaScript is my favorite so far given my preparation. I would say that without
+                    preparation
+                    before the class started, I may have fallen behind. What’s interesting is the different ways in
+                    which you can
+                    code JavaScript. While we are just learning loops and styles of coding which is more basic, I tend
+                    to simplify
+                    functions with the use of other high-order functions. My presentation was today, thursday, and was
+                    about
+                    iteration and recursion. I explained to the class that while I understand how to both make and use
+                    recursive
+                    functions, the way it interacts with the call stack still remains a bit out-of-the-ordinary for me.
+                    Since
+                    Monday, we’ve started on several projects and practice problems. The JavaScript problems were fairly
+                    easy for
+                    me; 29 functions ranging from: easy, medium, to more difficult. I finished a functioning calculator
+                    which I am
+                    just beginning to link to my functions in a JavaScript file, and have multiple other HTML and CSS
+                    projects
+                    which
+                    I’ve uploaded to GitHub.
+                </p>
+                <br />
+                <div class="images">
+                    <img src="HTMLCSSJS.jpeg" alt="HTML, CSS, and JS pic" style="width: 250px">
+                </div>
+            </div>
+
+            <div class="postarea1 week3">
+                <h3>
+                    Colby Burke
+                </h3>
+
+                <h2>
+                    JRS Coding School Day Eleven
+                </h2>
+
+                <p> Today is Monday, the eleventh day of JRS, and things are starting to get interesting for me. We
+                    began the day with an introduction to promises. From there we worked on the APIs in a different way.
+                    We did multiple practice exercises on the resolve and reject properties of the promise objects and
+                    fetched APIs, turning the into promise objects themselves. Once the APIs were fetched, we worked on
+                    displaying the results through that. Promise objects were not difficult for me to understand,
+                    despite having heard about how difficult they were to read and manipulate.
+                </p>
+                <br />
+                <script src="https://gist.github.com/ColbyBurke/05172fcd99048f28c7481a53a4ff5c13.js"></script>
+            </div>
+        </div>
+
+        <div class="footer">
+
+        </div>
+        <script>
+            $(function () {
+                $(".footer").load("footer.html");
+            });
+        </script>
+    </div>
+</body>
+
+</html>
